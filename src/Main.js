@@ -242,10 +242,10 @@ Discover the Essence of Sibling Love at our Rakhi Store in Surat! Unveil a world
                     <div class="col-xl-4 col-lg-4 col-md-6">
                         <div class="footer-widget">
                             <div class="footer-widget-heading">
-                                <h3>Subscribe</h3>
+                                <h3>Motive</h3>
                             </div>
                             <div class="footer-text mb-25">
-                                <p>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
+                                <p>At our Rakhi Store in Surat, our motive is to encapsulate the essence of sibling bonds through a curated collection of rakhis that blend tradition, artistry, and contemporary flair.</p>
                             </div>
                            
                         </div>
