@@ -9,6 +9,11 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
+
+
+// import required modules
+import { Autoplay} from 'swiper/modules';
+
 import './App.css';
 
 // import required modules
@@ -25,12 +30,11 @@ import rakhi9 from "./Assets/rakhi9.jpg";
 import rakhi10 from "./Assets/rakhi10.jpg";
 
 import hr1 from "./Assets/hr1.jpeg";
-import Slider from 'react-animated-slider';
-import 'react-animated-slider/build/horizontal.css';
+
   
 export default function Main() {
   const content = [
-    { title: 'Second item', description: 'Lorem ipsum', image: rakhi1 },
+    { title: 'Second item', description: 'Lorem ipsum', image: hr1 },
     { title: 'Second item', description: 'Lorem ipsum', image: rakhi2 },
     { title: 'Second item', description: 'Lorem ipsum', image: rakhi3 },
     { title: 'Second item', description: 'Lorem ipsum', image: rakhi4 },
@@ -40,23 +44,53 @@ export default function Main() {
     { title: 'Second item', description: 'Lorem ipsum', image: rakhi8 },
            
   
-];
+  ];
   
+
+   const progressCircle = useRef(null);
+  const progressContent = useRef(null);
+  const onAutoplayTimeLeft = (s, time, progress) => {
+    progressCircle.current.style.setProperty('--progress', 1 - progress);
+    progressContent.current.textContent = `${Math.ceil(time / 1000)}s`;
+  };
   
   return (
     <div className="w-100vw h-full mt-20 overflow-x-hidden ">
-      <Slider autoplay={2000}>
-{content.map((item, index) => (
-  <div
-    key={index}
-    style={{ background: `url(${item.image}) no-repeat center` }}
-  >
-  
-  </div>
-))}
+    
+      
 
+  <Swiper
+        spaceBetween={30}
+        centeredSlides={true}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
+        pagination={{
+          clickable: true,
+        }}
+        navigation={true}
+        modules={[Autoplay, Pagination, Navigation]}
+        onAutoplayTimeLeft={onAutoplayTimeLeft}
+        className="mySwiper"
+      >
+        <SwiperSlide><img src={hr1} ></img></SwiperSlide>
+        <SwiperSlide><img src={rakhi1} ></img></SwiperSlide>
+        <SwiperSlide><img src={rakhi2} ></img></SwiperSlide>
+        <SwiperSlide><img src={rakhi3} ></img></SwiperSlide>
+        <SwiperSlide><img src={rakhi4} ></img></SwiperSlide>
+        <SwiperSlide><img src={rakhi5} ></img></SwiperSlide>
+        <SwiperSlide><img src={rakhi6} ></img></SwiperSlide>
+        <SwiperSlide><img src={rakhi7}></img></SwiperSlide>
+        <SwiperSlide><img src={rakhi8} ></img></SwiperSlide>
+        <div className="autoplay-progress" slot="container-end">
+          <svg viewBox="0 0 48 48" ref={progressCircle}>
+            <circle cx="24" cy="24" r="20"></circle>
+          </svg>
+          <span ref={progressContent}></span>
+        </div>
+      </Swiper>
 
-</Slider>
 
        <div id='Products' className='mt-20 w-full h-10 overflow-hidden flex justify-center items-center text-2xl font-bold'><h1>PRODUCTS</h1></div>
      
