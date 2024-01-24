@@ -49,7 +49,7 @@ export default function Main() {
 {content.map((item, index) => (
   <div
     key={index}
-    style={{ background: `url(${item.image}) no-repeat center center` }}
+    style={{ background: `url(${item.image}) no-repeat center` }}
   >
   
   </div>
