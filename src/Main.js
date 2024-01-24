@@ -98,22 +98,21 @@ export default function Main() {
         <div className="grid  xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 max-w-6xl p-2 mx-auto gap-y-10 gap-x-5 min-h-[80vh]">
         
         
-              <Product title="Parth" description="PARTH IS GREAT and always will be smartest person ever alive here on earth" image={hr1}></Product>
-                <Product title="Parth" description="PARTH IS GREAT" image={rakhi1}></Product>
-                  <Product title="Parth" description="PARTH IS GREAT" image={rakhi2}></Product>
-                    <Product title="Parth" description="PARTH IS GREAT" image={rakhi3}></Product>
-                      <Product title="Parth" description="PARTH IS GREAT" image={rakhi4}></Product>
-                        <Product title="Parth" description="PARTH IS GREAT" image={rakhi5}></Product>
-                          <Product title="Parth" description="PARTH IS GREAT" image={rakhi6}></Product>
-                            <Product title="Parth" description="PARTH IS GREAT" image={rakhi7}></Product>
-                              <Product title="Parth" description="PARTH IS GREAT" image={rakhi8}></Product>
-                                <Product title="Parth" description="PARTH IS GREAT" image={rakhi9}></Product>
-                                  <Product title="Parth" description="PARTH IS GREAT" image={rakhi10}></Product>
-                                    <Product title="Parth" description="PARTH IS GREAT" image={hr1}></Product>
-                                      <Product title="Parth" description="PARTH IS GREAT" image={hr1}></Product>
-                                        <Product title="Parth" description="PARTH IS GREAT" image={hr1}></Product>
-                                          <Product title="Parth" description="PARTH IS GREAT" image={hr1}></Product>
-                                            <Product title="Parth" description="PARTH IS GREAT" image={hr1}></Product>
+              <Product title="Rakhi" description="The Gem Rakhi, a radiant and enchanting creation, sparkles with the brilliance of carefully selected gemstones. " image={hr1}></Product>
+                <Product title="Designer Rakhi" description="
+Designer rakhi is a perfect fusion of tradition and contemporary aesthetics, crafted with precision to add a touch of elegance to the sacred bond of brother and sister." image={rakhi1}></Product>
+        
+        <Product title="Premium Rakhi" description="Premium rakhi, an epitome of luxury and artistry, goes beyond the ordinary, elevating the celebration of Raksha Bandhan to a whole new level. " image={rakhi2}></Product>
+                    <Product title="Ganesha Rakhi" description="
+The Ganesha Rakhi, a divine and auspicious creation, beautifully blends tradition with spiritual symbolism" image={rakhi3}></Product>
+        
+                      <Product title="Textured Rakhi" description="The Textured Rakhi, a modern twist to tradition, captivates with its tactile allure and unique design. " image={rakhi4}></Product>
+        <Product title="Pearl Rakhi" description="The Pearl Rakhi, a symbol of purity and elegance, transcends traditional boundaries with its timeless charm." image={rakhi5}></Product>
+                          <Product title="Exclusive Rakhi" description="The Exclusive Rakhi, a masterpiece of craftsmanship and creativity, stands as a testament to the extraordinary bond shared between siblings." image={rakhi6}></Product>
+                            <Product title="Gem Rakhi" description="The Gem Rakhi, a radiant and enchanting creation, sparkles with the brilliance of carefully selected gemstones. " image={rakhi7}></Product>
+                              <Product title="RAKHI" description="RAKHI IS GREAT" image={rakhi8}></Product>
+                                <Product title="RAKHI" description="RAKHI IS GREAT" image={rakhi9}></Product>
+                                  <Product title="RAKHI" description="RAKHI IS GREAT" image={rakhi10}></Product>
             
             
       </div>
@@ -132,7 +131,8 @@ export default function Main() {
           <div class="col-12 col-xl-11">
             <h2 class="h1 mb-3">Who Are We?</h2>
             <p class="lead fs-4 text-secondary mb-3">We help people to build incredible brands and superior products. Our perspective is to furnish outstanding captivating services.</p>
-            <p class="mb-5">Nullam gravida orci ac luctus molestie. Fusce finibus congue erat, non aliquam magna tincidunt at. Aenean lacinia arcu ex, sed pharetra nibh porta a. Curabitur vel consequat nibh, ac interdum nisl. Nunc pulvinar nec massa vitae sollicitudin.</p>
+            <p class="mb-5">
+Discover the Essence of Sibling Love at our Rakhi Store in Surat! Unveil a world of exquisite rakhis that blend tradition with trend, available exclusively for you. From intricately designed designer rakhis to opulent premium ones, and from divine Ganesha rakhis to modern textured creations – our collection has something for every style and sentiment.</p>
             <div class="row gy-4 gy-md-0 gx-xxl-5X">
               <div class="col-12 col-md-6">
                 <div class="d-flex">
