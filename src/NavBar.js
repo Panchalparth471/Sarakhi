@@ -28,10 +28,10 @@ function Navbar() {
 
             {
             (isOpen)?(<div className={`fixed top-0 left-0 flex flex-col justify-start pt-[30%] gap-5 items-center h-screen z-50 w-3/5 bg-white transition-transform ease-in-out duration-300 ${isOpen ? 'translate-x-0' : 'translate-x-full'}`}>
-        <a className="flex text-center cursor-pointer" href="#">HOME</a>
-        <a className="flex text-center cursor-pointer" href="#About">ABOUT US</a>
-        <a className="flex text-center cursor-pointer" href="#Products">GALLERY</a>
-        <a className="flex text-center cursor-pointer" href="#Contact">CONTACT</a>
+        <a id="txt" className="flex text-center cursor-pointer" href="#">HOME</a>
+        <a id="txt" className="flex text-center cursor-pointer" href="#About">ABOUT US</a>
+        <a id="txt" className="flex text-center cursor-pointer" href="#Products">GALLERY</a>
+        <a id="txt" className="flex text-center cursor-pointer" href="#Contact">CONTACT</a>
     </div>):(<div className="w-0 h-0 hidden"></div>)
 }
 
