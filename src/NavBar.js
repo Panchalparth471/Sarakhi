@@ -8,7 +8,7 @@ import { useState } from "react";
 function Navbar() {
     const [isOpen, setOpen] = useState(false);
     return (
-        <div className="w-[100vw] h-[80px] flex justify-evenly max-md:justify-between items-center bg-white fixed z-50">
+        <div className="w-[100vw] h-[80px] flex justify-evenly max-md:justify-between max-md:pl-[10px] items-center bg-white fixed z-50">
             <div className="flex items-center h-full mt-2 justify-self-start">
                 <img src={logo} className="flex  justify-center items-center w-[90px] h-[70px] max-md:w-[80px] max-md:h-[60px] "></img>
             </div>
