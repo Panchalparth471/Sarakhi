@@ -217,7 +217,7 @@ Discover the Essence of Sibling Love at our Rakhi Store in Surat! Unveil a world
                             <div class="footer-social-icon">
                                 <span>Follow us</span>
                                 <a href="#"><i class="fab fa-facebook-f facebook-bg"></i></a>
-                                <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
+                                  <a href="https://www.instagram.com/sethia_arts/"><i class="fab fa-instagram instagram-bg"></i></a>
                                 <a href="#"><i class="fab fa-google-plus-g google-bg"></i></a>
                             </div>
                         </div>
