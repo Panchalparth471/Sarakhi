@@ -223,6 +223,9 @@ ul {
 .twitter-bg{
   background: #55ACEE;
 }
+.instagram-bg{
+  background:linear-gradient(45deg,#405DE6,#5851DB,#833AB4,#c13584,#E1306C,#FD1D1D);
+}
 .google-bg{
   background: #DD4B39;
 }
