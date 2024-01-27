@@ -373,6 +373,10 @@ ul {
   .swiper-slide img{
      width: 95%;
   }
+
+    .swiper {
+  height:75vh;
+}
 }
 
 
