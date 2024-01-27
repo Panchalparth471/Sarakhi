@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import logo from "./Assets/logo.jpg";
-import { slide as Menu } from 'react-burger-menu'
+
 
 import { Spin as Hamburger } from 'hamburger-react'
 import { useState } from "react";
