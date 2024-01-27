@@ -27,7 +27,7 @@ function Navbar() {
 </div>
 
             {
-            (isOpen)?(<div className={`fixed top-0 left-0 flex flex-col justify-start pt-[30%] gap-5 items-center h-screen z-50 w-3/5 bg-white transition-transform ease-in-out duration-300 ${isOpen ? 'translate-x-0' : 'translate-x-full'}`}>
+            (isOpen)?(<div className={`fixed top-0 left-0 flex flex-col justify-start pt-[30%] gap-5 items-center h-screen z-50 w-3/5 bg-[#ff5e14] transition-transform ease-in-out duration-300 ${isOpen ? 'translate-x-0' : 'translate-x-full'}`}>
         <a id="txt" className="flex text-center cursor-pointer" href="#">HOME</a>
         <a id="txt" className="flex text-center cursor-pointer" href="#About">ABOUT US</a>
         <a id="txt" className="flex text-center cursor-pointer" href="#Products">GALLERY</a>
