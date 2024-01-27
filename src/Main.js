@@ -95,7 +95,7 @@ export default function Main() {
        <div id='Products' className='mt-20 w-full h-10 overflow-hidden flex justify-center items-center text-2xl font-bold'><h1>PRODUCTS</h1></div>
      
       
-        <div className="grid  xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 max-w-6xl p-2 mx-auto gap-y-10 gap-x-5 min-h-[80vh]">
+        <div data-aos="fade-left" className="grid  xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 max-w-6xl p-2 mx-auto gap-y-10 gap-x-5 min-h-[80vh]">
         
         
               <Product title="Rakhi" description="The Gem Rakhi, a radiant and enchanting creation, sparkles with the brilliance of carefully selected gemstones. " image={hr1}></Product>
@@ -121,7 +121,7 @@ The Ganesha Rakhi, a divine and auspicious creation, beautifully blends traditio
        <div id='About' className='mt-20 w-full h-10 overflow-hidden flex justify-center items-center text-2xl font-bold'><h1>ABOUT US</h1></div>
       
 <section class="py-3 py-md-5 py-xl-8">
-  <div class="container">
+  <div data-aos="fade-right" class="container">
     <div class="row gy-3 gy-md-4 gy-lg-0 align-items-lg-center">
       <div class="col-12 col-lg-6 col-xl-5">
         <img class="img-fluid rounded" loading="lazy" src={logo} alt=""></img>
@@ -172,7 +172,7 @@ Discover the Essence of Sibling Love at our Rakhi Store in Surat! Unveil a world
 
       
       <footer class="footer-section" id='Contact'>
-        <div class="container">
+        <div data-aos="fade-up" class="container">
             <div class="footer-cta pt-5 pb-5">
                 <div class="row">
                     <div class="col-xl-4 col-md-4 mb-30">
