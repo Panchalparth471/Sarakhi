@@ -10,7 +10,7 @@ function Navbar() {
     return (
         <div className="w-[100vw] h-[80px] flex justify-evenly max-md:justify-between items-center bg-white fixed z-50">
             <div className="flex items-center h-full mt-2 justify-self-start">
-                <img src={logo} className="flex  justify-center items-center w-[90px] h-[70px]"></img>
+                <img src={logo} className="flex  justify-center items-center w-[90px] h-[70px] max-md:w-[70px] max-md:h-[50px] "></img>
             </div>
 
             
