@@ -7,7 +7,7 @@ export default function Product(props) {
       <div>
         <p className="w-40 font-normal text-[10px] text-left text-gray-500 " >{props.description.split(" ").slice(0,10).join(" ") + "..." }</p>
       </div>
-      <div className="h-[180px]">
+      <div className="h-[80%]">
         <img src={`${props.image}`} className="h-full w-full"></img>
         </div>
         
