@@ -100,15 +100,15 @@ export default function Main() {
         
               <Product title="Rakhi" description="The Gem Rakhi, a radiant and enchanting creation, sparkles with the brilliance of carefully selected gemstones. " image={hr1}></Product>
                 <Product title="Designer Rakhi" description="
-Designer rakhi is a perfect fusion of tradition and contemporary aesthetics, crafted with precision to add a touch of elegance to the sacred bond of brother and sister." image={rakhi1}></Product>
+Designer rakhi is a perfect fusion of tradition and contemporary aesthetics, crafted with precision to add a touch of elegance." image={rakhi1}></Product>
         
-        <Product title="Premium Rakhi" description="Premium rakhi, an epitome of luxury and artistry, goes beyond the ordinary, elevating the celebration of Raksha Bandhan to a whole new level. " image={rakhi2}></Product>
+        <Product title="Premium Rakhi" description="Premium rakhi, goes beyond the ordinary, elevating the celebration of Raksha Bandhan to a whole new level. " image={rakhi2}></Product>
                     <Product title="Ganesha Rakhi" description="
 The Ganesha Rakhi, a divine and auspicious creation, beautifully blends tradition with spiritual symbolism" image={rakhi3}></Product>
         
                       <Product title="Textured Rakhi" description="The Textured Rakhi, a modern twist to tradition, captivates with its tactile allure and unique design. " image={rakhi4}></Product>
         <Product title="Pearl Rakhi" description="The Pearl Rakhi, a symbol of purity and elegance, transcends traditional boundaries with its timeless charm." image={rakhi5}></Product>
-                          <Product title="Exclusive Rakhi" description="The Exclusive Rakhi, a masterpiece of craftsmanship and creativity, stands as a testament to the extraordinary bond shared between siblings." image={rakhi6}></Product>
+                          <Product title="Exclusive Rakhi" description="The Exclusive Rakhi, stands as a testament to the extraordinary bond shared between siblings." image={rakhi6}></Product>
                             <Product title="Gem Rakhi" description="The Gem Rakhi, a radiant and enchanting creation, sparkles with the brilliance of carefully selected gemstones. " image={rakhi7}></Product>
                               <Product title="RAKHI" description="RAKHI IS GREAT" image={rakhi8}></Product>
                                 <Product title="RAKHI" description="RAKHI IS GREAT" image={rakhi9}></Product>
