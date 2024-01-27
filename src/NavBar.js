@@ -15,10 +15,10 @@ function Navbar() {
 
             
             <div className="flex justify-end gap-12  items-center w-[60%] h-full font-semibold text-lg max-md:hidden">
-                <a className="flex text-center cursor-pointer" href="#">HOME</a>
-                <a className="flex text-center cursor-pointer" href="#About">ABOUT US</a>
-                <a className="flex text-center cursor-pointer" href="#Products">GALLERY</a>
-                <a className="flex text-center cursor-pointer" href="#Contact">CONTACT</a>
+                <a className="flex text-center cursor-pointer hover:scale-110 hover:text-[#ff5e14]" href="#">HOME</a>
+                <a className="flex text-center cursor-pointer hover:scale-110 hover:text-[#ff5e14]" href="#About">ABOUT US</a>
+                <a className="flex text-center cursor-pointer hover:scale-110 hover:text-[#ff5e14]" href="#Products">GALLERY</a>
+                <a className="flex text-center cursor-pointer hover:scale-110 hover:text-[#ff5e14]" href="#Contact">CONTACT</a>
                  
             </div>
 
