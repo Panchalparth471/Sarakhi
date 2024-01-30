@@ -112,7 +112,7 @@ The Ganesha Rakhi, a divine and auspicious creation, beautifully blends traditio
         <Product title="Pearl Rakhi" description="The Pearl Rakhi, a symbol of purity and elegance, transcends traditional boundaries with its timeless charm." image={rakhi5}></Product>
                           <Product title="Exclusive Rakhi" description="The Exclusive Rakhi, stands as a testament to the extraordinary bond shared between siblings." image={rakhi6}></Product>
                             <Product title="Gem Rakhi" description="The Gem Rakhi, a radiant and enchanting creation, sparkles with the brilliance of carefully selected gemstones. " image={rakhi7}></Product>
-                              <Product title="RAKHI" description="RAKHI IS GREAT" image={rakhi8}></Product>
+                        
                                 <Product title="RAKHI" description="RAKHI IS GREAT" image={rakhi9}></Product>
                                   <Product title="RAKHI" description="RAKHI IS GREAT" image={rakhi10}></Product>
                         
