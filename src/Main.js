@@ -36,7 +36,7 @@ import hr1 from "./Assets/hr1.jpeg";
   
 export default function Main() {
   const content = [
-    { title: 'Second item', description: 'Lorem ipsum', image: hr1 },
+    { title: 'Second item', description: 'Lorem ipsum', image: rakhi1 },
     { title: 'Second item', description: 'Lorem ipsum', image: rakhi2 },
     { title: 'Second item', description: 'Lorem ipsum', image: rakhi3 },
     { title: 'Second item', description: 'Lorem ipsum', image: rakhi4 },
