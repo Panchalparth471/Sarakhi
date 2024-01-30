@@ -100,7 +100,7 @@ export default function Main() {
         <div data-aos="fade-left" className="grid  xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 max-w-6xl p-2 mx-auto gap-y-10 gap-x-5 min-h-[80vh]">
         
         
-              <Product title="Rakhi" description="The Gem Rakhi, a radiant and enchanting creation, sparkles with the brilliance of carefully selected gemstones. " image={hr1}></Product>
+              <Product title="Rakhi" description="The Gem Rakhi, a radiant and enchanting creation, sparkles with the brilliance of carefully selected gemstones. " image={rakhi12}></Product>
                 <Product title="Designer Rakhi" description="
 Designer rakhi is a perfect fusion of tradition and contemporary aesthetics, crafted with precision to add a touch of elegance." image={rakhi1}></Product>
         
@@ -115,8 +115,8 @@ The Ganesha Rakhi, a divine and auspicious creation, beautifully blends traditio
                               <Product title="RAKHI" description="RAKHI IS GREAT" image={rakhi8}></Product>
                                 <Product title="RAKHI" description="RAKHI IS GREAT" image={rakhi9}></Product>
                                   <Product title="RAKHI" description="RAKHI IS GREAT" image={rakhi10}></Product>
-                                       <Product title="RAKHI" description="RAKHI IS GREAT" image={rakhi11}></Product>
-                                            <Product title="RAKHI" description="RAKHI IS GREAT" image={rakhi12}></Product>
+                        
+                                            <Product title="RAKHI" description="RAKHI IS GREAT" image={rakhi11}></Product>
             
             
       </div>
