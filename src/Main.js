@@ -189,7 +189,7 @@ Discover the Essence of Sibling Love at our Rakhi Store in Surat! Unveil a world
                             <i class="fas fa-phone"></i>
                             <div class="cta-text">
                                 <h4>Call us</h4>
-                                <span>9876543210 0</span>
+                                <span>9712326876</span>
                             </div>
                         </div>
                     </div>
@@ -198,7 +198,7 @@ Discover the Essence of Sibling Love at our Rakhi Store in Surat! Unveil a world
                             <i class="far fa-envelope-open"></i>
                             <div class="cta-text">
                                 <h4>Mail us</h4>
-                                <span>mail@info.com</span>
+                                <span>chaitanyasethia@gmail.com</span>
                             </div>
                         </div>
                     </div>
