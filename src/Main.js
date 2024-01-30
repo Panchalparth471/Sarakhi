@@ -28,6 +28,8 @@ import rakhi7 from "./Assets/rakhi7.jpg";
 import rakhi8 from "./Assets/rakhi8.jpg";
 import rakhi9 from "./Assets/rakhi9.jpg";
 import rakhi10 from "./Assets/rakhi10.jpg";
+import rakhi11 from "./Assets/rakhi11.jpg";
+import rakhi12 from "./Assets/rakhi12.jpg";
 
 import hr1 from "./Assets/hr1.jpeg";
 
@@ -113,6 +115,8 @@ The Ganesha Rakhi, a divine and auspicious creation, beautifully blends traditio
                               <Product title="RAKHI" description="RAKHI IS GREAT" image={rakhi8}></Product>
                                 <Product title="RAKHI" description="RAKHI IS GREAT" image={rakhi9}></Product>
                                   <Product title="RAKHI" description="RAKHI IS GREAT" image={rakhi10}></Product>
+                                       <Product title="RAKHI" description="RAKHI IS GREAT" image={rakhi11}></Product>
+                                            <Product title="RAKHI" description="RAKHI IS GREAT" image={rakhi12}></Product>
             
             
       </div>
