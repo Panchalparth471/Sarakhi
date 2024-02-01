@@ -116,7 +116,7 @@ The Ganesha Rakhi, a divine and auspicious creation, beautifully blends traditio
                                 <Product title="RAKHI" description="RAKHI IS GREAT" image={rakhi9}></Product>
                                   <Product title="RAKHI" description="RAKHI IS GREAT" image={rakhi10}></Product>
                         
-                                            <Product title="RAKHI" description="RAKHI IS GREAT" image={rakhi11}></Product>
+                                            <Product title="LADIES KADA" description="A ladies Rakhi kada is a traditional Indian bracelet specifically designed for women to wear during the celebration of Raksha Bandhan." image={rakhi11}></Product>
             
             
       </div>
