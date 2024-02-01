@@ -116,7 +116,7 @@ The Ganesha Rakhi, a divine and auspicious creation, beautifully blends traditio
                                 <Product title="RAKHI" description="RAKHI IS GREAT" image={rakhi9}></Product>
                                   <Product title="RAKHI" description="RAKHI IS GREAT" image={rakhi10}></Product>
                         
-                                            <Product title="LADIES KADA" description="A ladies Rakhi kada is a traditional Indian bracelet specifically designed for women to wear during the celebration of Raksha Bandhan." image={rakhi11}></Product>
+                                            <Product title="Ladies Kada" description="A ladies Rakhi kada is a traditional Indian bracelet specifically designed for women to wear during the celebration of Raksha Bandhan." image={rakhi11}></Product>
             
             
       </div>
@@ -134,7 +134,7 @@ The Ganesha Rakhi, a divine and auspicious creation, beautifully blends traditio
         <div class="row justify-content-xl-center">
           <div class="col-12 col-xl-11">
             <h2 class="h1 mb-3">Who Are We?</h2>
-            <p class="lead fs-4 text-secondary mb-3">SA RAKHI,the premier Rakhi manufacturer in India, has established itself with over 25+ years of expertise, offering a diverse collection of meticulously crafted designs. Our tailored pricing accommodates various budgets, and we place a strong emphasis on customer feedback, fostering a widespread network of dealers and wholesalers across the country.</p>
+            <p class="lead fs-4 text-secondary mb-3">SA RAKHI, the premier Rakhi manufacturer in India, has established itself with over 25+ years of expertise, offering a diverse collection of meticulously crafted designs. Our tailored pricing accommodates various budgets, fostering a widespread network of dealers and wholesalers across the country.</p>
             <p class="mb-5">
 Discover the Essence of Sibling Love at our Rakhi Store in Surat! Unveil a world of exquisite rakhis that blend tradition with trend, available exclusively for you.</p>
             <div class="row gy-4 gy-md-0 gx-xxl-5X">
