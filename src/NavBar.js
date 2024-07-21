@@ -1,48 +1,61 @@
+
+import Hamburger from 'hamburger-react';
 import { motion } from "framer-motion";
 import logo from "./Assets/logo.jpg";
 
 
-import { Spin as Hamburger } from 'hamburger-react'
 import { useState } from "react";
-
 function Navbar() {
-    const [isOpen, setOpen] = useState(false);
+
+    const [isOpen, setOpen] = useState(false)
+
+
+
+    
     return (
-        <div data-aos="fade-down" className="w-[100vw] h-[80px] flex justify-evenly max-md:justify-between max-md:pl-[10px] items-center bg-white fixed z-50">
-            <div className="flex items-center h-full mt-2 justify-self-start">
-                <img src={logo} className="flex  justify-center items-center w-[90px] h-[70px] max-md:w-[80px] max-md:h-[60px] "></img>
-            </div>
-
-            
-            <div className="flex justify-end gap-12  items-center w-[60%] h-full font-semibold text-lg max-md:hidden">
-                <a className="flex text-center cursor-pointer hover:scale-110 hover:text-[#ff5e14]" href="#">HOME</a>
-                <a className="flex text-center cursor-pointer hover:scale-110 hover:text-[#ff5e14]" href="#About">ABOUT US</a>
-                <a className="flex text-center cursor-pointer hover:scale-110 hover:text-[#ff5e14]" href="#Products">GALLERY</a>
-                <a className="flex text-center cursor-pointer hover:scale-110 hover:text-[#ff5e14]" href="#Contact">CONTACT</a>
-                 
-            </div>
-
-          <div className="md:hidden z-50">
-    <Hamburger toggled={isOpen} toggle={setOpen} color="#ff5e14" />
-</div>
-
-            {
-            (isOpen)?(<div className={`fixed top-0 left-0 flex flex-col justify-start pt-[30%] gap-5 items-center h-screen z-50 w-3/5 bg-[#ff5e14] transition-transform ease-in-out duration-300 ${isOpen ? 'translate-x-0' : 'translate-x-full'}`}>
-        <a id="txt" className="flex text-center cursor-pointer" href="#">HOME</a>
-        <a id="txt" className="flex text-center cursor-pointer" href="#About">ABOUT US</a>
-        <a id="txt" className="flex text-center cursor-pointer" href="#Products">GALLERY</a>
-        <a id="txt" className="flex text-center cursor-pointer" href="#Contact">CONTACT</a>
-    </div>):(<div className="w-0 h-0 hidden"></div>)
-}
-
-
-                
-
-            
+    
+               <div data-aos="fade-down" className="flex fixed bg-white z-[1000] flex-row font-semibold text-lg justify-between w-[100vw] h-[80px] shadow-md">
+            <div className="p-2 ml-5 text-[30px] max-lg:text-[20px] max-lg:ml-4 flex justify-center items-center">   <img src={logo} className="flex  justify-center items-center w-[90px] h-[70px] max-md:w-[80px] max-md:h-[60px] "></img></div>
+            <div className="flex text-[20px] max-lg:text-[13px] gap-4 max-lg:gap-2 mr-10 max-md:hidden">
+                <div className="p-4 flex justify-center items-center cursor-pointer hover:scale-110 transition-all"><a href='#'>HOME</a></div>
+                <div className="p-4 flex justify-center items-center cursor-pointer hover:scale-110 transition-all"><a href='#About'>ABOUT US</a></div>
+                <div className="p-4 flex justify-center items-center  cursor-pointer hover:scale-110 transition-all"><a href='#Products'>GALLERY</a></div>
+                <div className="p-4 flex justify-center items-center cursor-pointer hover:scale-110 transition-all"><a href='#Contact'>CONTACT</a></div>
         
+            </div>
+           
+   <div className='md:hidden mt-3 absolute flex justify-center items-center right-0 z-[100000000]'><Hamburger toggled={isOpen} toggle={setOpen} color="orange"/></div>
+            
+            
+
+
+ <div  className={`top-0 z-[150] flex flex-col md:hidden ${isOpen ? 'bg-[#FF8A00] justify-center h-[100vh] max-[300px]:w-[80%] w-[70%] transition-translate-x duration-150 ease-in-out translate-x-0 ' : 'w-[80vw] transition-translate-x duration-150 ease-in-out h-screen translate-x-72' } items-end gap-10 text-white`}>
+   
+    {
+        isOpen ? (
+            <div className='flex flex-col w-full justify-start mb-32 gap-8'>
+                <a href="#" className="place-self-center" >HOME</a>
+                <a href="#About" className="place-self-center">ABOUT US</a>
+                <a href="#Products" className="place-self-center">GALLERY</a>
+                <a href="#Contact" className="place-self-center">CONTACT</a>
+     
+               
+            </div>
+        ) : null
+    }
+</div> 
+             
+            
+ 
+
         </div>
-    )
+
+        
+
+            
+    );
+      
 }
-  
 
 export default Navbar;
+
