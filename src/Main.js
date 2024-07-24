@@ -30,68 +30,25 @@ import rakhi9 from "./Assets/rakhi9.jpg";
 import rakhi10 from "./Assets/rakhi10.jpg";
 import rakhi11 from "./Assets/rakhi11.jpg";
 import rakhi12 from "./Assets/rakhi12.jpg";
-
+import vid from "./Assets/vid1.mp4";
 import hr1 from "./Assets/hr1.jpeg";
 
   
-export default function Main() {
-  const content = [
-    { title: 'Second item', description: 'Lorem ipsum', image: rakhi1 },
-    { title: 'Second item', description: 'Lorem ipsum', image: rakhi2 },
-    { title: 'Second item', description: 'Lorem ipsum', image: rakhi3 },
-    { title: 'Second item', description: 'Lorem ipsum', image: rakhi4 },
-    { title: 'Second item', description: 'Lorem ipsum', image: rakhi5 },
-    { title: 'Second item', description: 'Lorem ipsum', image: rakhi6 },
-    { title: 'Second item', description: 'Lorem ipsum', image: rakhi7 },
-    { title: 'Second item', description: 'Lorem ipsum', image: rakhi8 },
-           
-  
-  ];
-  
-
-   const progressCircle = useRef(null);
-  const progressContent = useRef(null);
-  const onAutoplayTimeLeft = (s, time, progress) => {
-    progressCircle.current.style.setProperty('--progress', 1 - progress);
-    progressContent.current.textContent = `${Math.ceil(time / 1000)}s`;
-  };
-  
+export default function Main() {  
   return (
-    <div className="w-100vw h-full mt-20 overflow-x-hidden ">
+    <div className="w-100vw h-full mt-20 overflow-x-hidden overflow-y-hidden ">
     
       
+ <div className="w-100vw h-full overflow-x-hidden overflow-y-hidden">
+  <div className="flex justify-center items-center">
+    <video className='w-[90vw] h-[80vh] object-center object-cover' loop autoPlay muted>
+      <source src={vid} type="video/mp4" />
+      <source src={vid} type="video/ogg" />
+    </video>
+  </div>
+</div>
 
-  <Swiper
-        spaceBetween={30}
-        centeredSlides={true}
-        autoplay={{
-          delay: 2500,
-          disableOnInteraction: false,
-        }}
-        pagination={{
-          clickable: true,
-        }}
-        navigation={true}
-        modules={[Autoplay, Pagination, Navigation]}
-        onAutoplayTimeLeft={onAutoplayTimeLeft}
-        className="mySwiper"
-      >
-        <SwiperSlide><img src={hr1} ></img></SwiperSlide>
-        <SwiperSlide><img src={rakhi1} ></img></SwiperSlide>
-        <SwiperSlide><img src={rakhi2} ></img></SwiperSlide>
-        <SwiperSlide><img src={rakhi3} ></img></SwiperSlide>
-        <SwiperSlide><img src={rakhi4} ></img></SwiperSlide>
-        <SwiperSlide><img src={rakhi5} ></img></SwiperSlide>
-        <SwiperSlide><img src={rakhi6} ></img></SwiperSlide>
-        <SwiperSlide><img src={rakhi7}></img></SwiperSlide>
-        <SwiperSlide><img src={rakhi8} ></img></SwiperSlide>
-        <div className="autoplay-progress" slot="container-end">
-          <svg viewBox="0 0 48 48" ref={progressCircle}>
-            <circle cx="24" cy="24" r="20"></circle>
-          </svg>
-          <span ref={progressContent}></span>
-        </div>
-      </Swiper>
+
 
 
        <div id='Products' className='mt-20 w-full h-10 overflow-hidden flex justify-center items-center text-2xl font-bold'><h1>PRODUCTS</h1></div>
@@ -100,23 +57,23 @@ export default function Main() {
         <div data-aos="fade-left" className="grid  xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 max-w-6xl p-2 mx-auto gap-y-10 gap-x-5 min-h-[80vh]">
         
         
-              <Product title="Rakhi" description="The Gem Rakhi, a radiant and enchanting creation, sparkles with the brilliance of carefully selected gemstones. " image={rakhi12}></Product>
-                <Product title="Designer Rakhi" description="
-Designer rakhi is a perfect fusion of tradition and contemporary aesthetics, crafted with precision to add a touch of elegance." image={rakhi1}></Product>
+              <Product title="Astrology Red Gemstone Rakhi" description=" A fiery red stone rakhi, channeling the power and courage of Mars for your brother's well-being." image={rakhi12}></Product>
+                <Product title="Evil Eye Rakhi" description="
+This rakhi features a blue evil eye charm, a common symbol of protection against negativity." image={rakhi1}></Product>
         
-        <Product title="Premium Rakhi" description="Premium rakhi, goes beyond the ordinary, elevating the celebration of Raksha Bandhan to a whole new level. " image={rakhi2}></Product>
-                    <Product title="Ganesha Rakhi" description="
-The Ganesha Rakhi, a divine and auspicious creation, beautifully blends tradition with spiritual symbolism" image={rakhi3}></Product>
+        <Product title="Pearl Bead Rakhi" description=" Delicate white pearls and gold beads create a timeless design for your brother." image={rakhi2}></Product>
+                    <Product title="Guardian Eye Rakhi" description="
+This rakhi features a half evil eye design, offering protection with a touch of modern style." image={rakhi3}></Product>
         
-                      <Product title="Textured Rakhi" description="The Textured Rakhi, a modern twist to tradition, captivates with its tactile allure and unique design. " image={rakhi4}></Product>
-        <Product title="Pearl Rakhi" description="The Pearl Rakhi, a symbol of purity and elegance, transcends traditional boundaries with its timeless charm." image={rakhi5}></Product>
-                          <Product title="Exclusive Rakhi" description="The Exclusive Rakhi, stands as a testament to the extraordinary bond shared between siblings." image={rakhi6}></Product>
-                            <Product title="Gem Rakhi" description="The Gem Rakhi, a radiant and enchanting creation, sparkles with the brilliance of carefully selected gemstones. " image={rakhi7}></Product>
-                         <Product title="RAKHI" description="RAKHI IS GREAT" image={rakhi8}></Product>
-                                <Product title="RAKHI" description="RAKHI IS GREAT" image={rakhi9}></Product>
-                                  <Product title="RAKHI" description="RAKHI IS GREAT" image={rakhi10}></Product>
+                      <Product title=" Braided Rakhis" description=" Vibrant threads are braided together to hold a symbolic evil eye charm, offering love and protection." image={rakhi4}></Product>
+        <Product title="Multicolored Rakhi" description="Woven threads in vibrant hues create a unique rakhi for a cherished sibling." image={rakhi5}></Product>
+                          <Product title="Peacock Rakhi" description=" A colorful peacock motif sits atop a base of red threads, celebrating the vibrancy of Raksha Bandhan." image={rakhi6}></Product>
+                            <Product title="Beaded Tassels" description="Delicate beads strung together with colorful tassels create a charming rakhi for a special sister. " image={rakhi7}></Product>
+                         <Product title="Charm Rakhi" description="Vibrant threads are braided together to hold a symbolic charm, offering love and protection." image={rakhi8}></Product>
+                                <Product title="Timeless Rakhi " description="Carry on the timeless tradition with this elegant rakhi, symbolizing love and care." image={rakhi9}></Product>
+                                  <Product title="Wish Rakhi" description="Woven threads in a kaleidoscope of colors create a rakhi bursting with well wishes for your sibling." image={rakhi10}></Product>
                         
-                                            <Product title="Ladies Kada" description="A ladies Rakhi kada is a traditional Indian bracelet specifically designed for women to wear during the celebration of Raksha Bandhan." image={rakhi11}></Product>
+                                            <Product title="Emerald Rakhi" description="A captivating rakhi featuring a verdant green stone, symbolizing protection and prosperity." image={rakhi11}></Product>
             
             
       </div>
