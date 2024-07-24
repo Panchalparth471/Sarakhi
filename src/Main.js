@@ -137,13 +137,15 @@ Discover the Essence of Sibling Love at our Rakhi Store in Surat! Unveil a world
             <div class="footer-cta pt-5 pb-5">
                 <div class="row">
                     <div class="col-xl-4 col-md-4 mb-30">
+                         <a href='https://g.co/kgs/3BR8JLp'>
                         <div class="single-cta">
-                            <i class="fas fa-map-marker-alt"></i>
+                      <i class="fas fa-map-marker-alt"></i>
                             <div class="cta-text">
                                 <h4>Find us</h4>
                                 <span>1ST FLOOR HOLI CHAKLA NEAR MOTA MANDIR SURAT</span>
                             </div>
-                        </div>
+                  </div>
+                  </a>
                     </div>
                     <div class="col-xl-4 col-md-4 mb-30">
                         <div class="single-cta">
