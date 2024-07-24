@@ -41,7 +41,7 @@ export default function Main() {
       
  <div className="w-100vw h-full overflow-x-hidden overflow-y-hidden">
   <div className="flex justify-center items-center">
-    <video className='w-[90vw] h-[80vh] object-center object-cover' loop autoPlay muted>
+    <video controls preload="none" className='w-[90vw] h-[80vh] object-center object-cover' loop autoPlay muted playsinline>
       <source src={vid} type="video/mp4" />
       <source src={vid} type="video/ogg" />
     </video>
