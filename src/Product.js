@@ -8,7 +8,7 @@ export default function Product(props) {
         <p className="w-40 font-normal text-[10px] text-left text-gray-500 " >{props.description.split(" ").slice(0,10).join(" ") + "..." }</p>
       </div>
       <div className="max-md:h-[250px] h-[180px]">
-        <img src={`${props.image}`} className="h-full w-full"></img>
+      <img src={`${props.image}`} loading="lazy" className=" h-full w-full"></img>
         </div>
         
         <button className="text-gray-700 border-2 border-gray-700 rounded-full font-semibold text-[12px] p-1 px-3 uppercase hover:bg-gray-700 hover:text-white  transition duration-300 ease-in " >VIEW</button>
