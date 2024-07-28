@@ -65,15 +65,15 @@ This rakhi features a blue evil eye charm, a common symbol of protection against
                     <Product title="Guardian Eye Rakhi" description="
 This rakhi features a half evil eye design, offering protection with a touch of modern style." image={rakhi3}></Product>
         
-                      <Product title=" Braided Rakhis" description=" Vibrant threads are braided together to hold a symbolic evil eye charm, offering love and protection." image={rakhi4}></Product>
-        <Product title="Multicolored Rakhi" description="Woven threads in vibrant hues create a unique rakhi for a cherished sibling." image={rakhi5}></Product>
+                      <Product title="Evil Eye Collection" description=" Vibrant threads are braided together to hold a symbolic evil eye charm, offering love and protection." image={rakhi4}></Product>
+        <Product title="Couple Set" description="Woven threads in vibrant hues create a unique rakhi for a cherished sibling." image={rakhi5}></Product>
                           <Product title="Peacock Rakhi" description=" A colorful peacock motif sits atop a base of red threads, celebrating the vibrancy of Raksha Bandhan." image={rakhi6}></Product>
-                            <Product title="Beaded Tassels" description="Delicate beads strung together with colorful tassels create a charming rakhi for a special sister. " image={rakhi7}></Product>
-                         <Product title="Charm Rakhi" description="Vibrant threads are braided together to hold a symbolic charm, offering love and protection." image={rakhi8}></Product>
+                            <Product title="Firoza Beads" description="Delicate beads strung together with colorful tassels create a charming rakhi for a special sister. " image={rakhi7}></Product>
+                         <Product title="Coloured Thread" description="Vibrant threads are braided together to hold a symbolic charm, offering love and protection." image={rakhi8}></Product>
                                 <Product title="Timeless Rakhi " description="Carry on the timeless tradition with this elegant rakhi, symbolizing love and care." image={rakhi9}></Product>
                                   <Product title="Wish Rakhi" description="Woven threads in a kaleidoscope of colors create a rakhi bursting with well wishes for your sibling." image={rakhi10}></Product>
                         
-                                            <Product title="Emerald Rakhi" description="A captivating rakhi featuring a verdant green stone, symbolizing protection and prosperity." image={rakhi11}></Product>
+                                            <Product title="Astrology Colly" description="A captivating rakhi featuring a verdant green stone, symbolizing protection and prosperity." image={rakhi11}></Product>
             
             
       </div>
